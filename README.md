@@ -24,4 +24,4 @@ YAML Ain't Markup Language (YAML) is a data serialization language that is consi
 [facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=flat-square&logo=facebook&color=pink&logoColor=blue
 [facebook-url]: https://www.facebook.com/GoLapisSoft/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=red
-[linkedin-url]: https://www.linkedin.com/company/GoLapisSoft
+[linkedin-url]: https://www.linkedin.com/company/lapis-soft/
