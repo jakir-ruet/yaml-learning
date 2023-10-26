@@ -47,7 +47,7 @@ A YAML format primarily uses 3 node types:
 <a href="https://github.com/jakir-ruet">GitHub</a>
 <a href="https://web.skype.com/?openPstnPage=true">Skype</a>
 
-## Have good day, stay with me.
+## Have a good day, stay with me.
 
 [youtube-shield]: https://img.shields.io/badge/-Youtube-black.svg?style=flat-square&logo=youtube&color=blue&logoColor=red
 [youtube-url]: https://www.youtube.com/@LapisSoft/featured
