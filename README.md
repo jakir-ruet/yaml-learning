@@ -10,6 +10,16 @@
 
 YAML Ain't Markup Language (YAML) is a data serialization language that is consistently listed as one of the most popular programming languages. It's often used as a format for configuration files, but its object serialization abilities make it a viable replacement for languages like JSON. This YAML tutorial will demonstrate the language syntax with a guide and some simple coding examples in Python. YAML has broad language support and maps easily into native data structures. It's also easy for humans to read, which is why it's a good choice for configuration. The YAML acronym was shorthand for Yet Another Markup Language.
 
+## Basic YAML Syntax
+
+A YAML format primarily uses 3 node types:
+
+<ol>
+  <li>Maps/Dictionaries (Mapping)</li>
+  <li>Arrays/Lists (Sequences)</li>
+  <li>Literals (Data Types)</li>
+</ol>
+
 ## Courtesy of Jakir,
 
 <a href="https://www.linkedin.com/in/jakir-ruet/">LinkedIn</a>
