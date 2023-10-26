@@ -1,0 +1,24 @@
+# Training course is available here
+
+courses:
+  name: "AWS Certified Cloud Practitioner Certification"
+  duration: "250 Hours"
+  price: "$1500"
+  is_free: false
+  start_date: 2023-10-23 10:00:00
+  pre_enroll: null
+  tags:
+    - DevOps
+    - Cloud Computing
+    - Virtualization
+    - Hypervisor
+    - Containerization
+  instructor: ["Fahmid", "Tahmid", "Jakir"]
+  student_dtails:
+    - name: "Fahmid"
+      email: "fahmid@gmail.com"
+      course: "DevOps"
+    - name: "Tahmid"
+      email: "tahmid@gmail.com"
+      course: "Virtualization"
+
