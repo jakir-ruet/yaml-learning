@@ -20,23 +20,25 @@ A YAML format primarily uses 3 node types:
   <li>Literals (Data Types)</li>
 </ol>
 
-| SL  | Notation | Functionality |
-| :-- | :------: | ------------: |
-| 1   |    :     |   Here's this |
-| 2   |    -     |      And more |
-| 3   |    ,     |      And more |
-| 4   |    ?     |      And more |
-| 5   |    !     |      And more |
-| 6   |    &     |      And more |
-| 7   |   Pipe   |      And more |
-| 8   |    #     |      And more |
-| 9   |    >     |      And more |
-| 10  |    {     |      And more |
-| 11  |    }     |      And more |
-| 12  |    [     |      And more |
-| 13  |    ]     |      And more |
-| 14  |    %     |      And more |
-| 15  |    \*    |      And more |
+| SL  |   Notation    |                                   Functionality |
+| :-- | :-----------: | ----------------------------------------------: |
+| 1   |     Colon     | It is use key-value pair (mapping) presentation |
+| 2   |    Hyphen     |      It is use the entry of the block sequence. |
+| 3   |     Comma     |      It describes the entry of flow collection. |
+| 4   | Question Mark |                       Describe the mapping key. |
+| 5   |       !       |                    Describes the tag of a node. |
+| 6   |       &       |        It is use for anchor property of a node. |
+| 7   |     Pipe      |              It is use to literal block scalar. |
+| 8   |       #       |             It is use to describe the comments. |
+| 9   |       >       |  It is use to describe the folded block scalar. |
+| 10  |       {       |         It is use to start the mapping of flow. |
+| 11  |       }       |           It is use to end the mapping of flow. |
+| 12  |       [       |        It is use to start the sequence of flow. |
+| 13  |       ]       |          It is use to end the sequence of flow. |
+| 14  |       %       |      It use to describes the use of directives. |
+| 15  |      ---      |                        It use to stream Staring |
+| 15  |      ...      |                         It use to stream ending |
+| 15  |   Asterisk    |           It is use to describe the alias node. |
 
 ## Courtesy of Jakir,
 
