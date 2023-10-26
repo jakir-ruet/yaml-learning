@@ -20,6 +20,24 @@ A YAML format primarily uses 3 node types:
   <li>Literals (Data Types)</li>
 </ol>
 
+| SL  | Notation | Functionality |
+| :-- | :------: | ------------: |
+| 1   |    :     |   Here's this |
+| 2   |    -     |      And more |
+| 3   |    ,     |      And more |
+| 4   |    ?     |      And more |
+| 5   |    !     |      And more |
+| 6   |    &     |      And more |
+| 7   |   Pipe   |      And more |
+| 8   |    #     |      And more |
+| 9   |    >     |      And more |
+| 10  |    {     |      And more |
+| 11  |    }     |      And more |
+| 12  |    [     |      And more |
+| 13  |    ]     |      And more |
+| 14  |    %     |      And more |
+| 15  |    \*    |      And more |
+
 ## Courtesy of Jakir,
 
 <a href="https://www.linkedin.com/in/jakir-ruet/">LinkedIn</a>
