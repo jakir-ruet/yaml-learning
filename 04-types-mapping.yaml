@@ -1,0 +1,17 @@
+---
+# Mappings (Hashes/Dictionaries)
+# It returns a hash value of an object. it will be an array, collection, dictionary, etc.
+# simple mapping
+name: jakir
+profession: DevOps Professional
+# sequence mapping, nested mapping & mixed mapping
+contact_information:
+  - name: jakir
+    profession: DevOps Professional
+    skill: Cloud Computing
+      Amazon Web Services
+      Linux Operating System (Ubuntu)
+
+education:
+  - university: rajshahi university of engineering of technology (RUET)
+    department: electronics & telecommunication engineering (ETE)
