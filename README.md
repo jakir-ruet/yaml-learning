@@ -35,9 +35,9 @@ YAML Ain't Markup Language (YAML) is a data serialization language that is consi
 There are threee types of types in YAML shown as follows;
 
 <ol>
-  <li>Mappings (Hashes/Dictionaries)</li>
-  <li>Sequences (Arrays/Lists)</li>
-  <li>Scalars (String/Numbers)</li>
+  <li>Scalars</li>
+  <li>Mappings</li>
+  <li>Sequences</li>
 </ol>
 <p>See in deatails in class (03 to 06)</p>
 <img src="img/data-types.png" alt="datatype" height=290 width=500>
