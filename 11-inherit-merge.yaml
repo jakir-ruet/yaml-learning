@@ -1,0 +1,37 @@
+# What if you want to small / monir change in your block while re-using this in YAML.
+# User can use override with character ‘<<:’ before the alias.
+# This is useful to Override the YML or Add more values in block.
+definitions:
+  - steps: &Validate-Project
+      name: Validate Project Compilation
+      script:
+        - mvn validate
+      artifacts: &Project-Aritfacts
+        - target/**
+
+  - steps: &Test-Compiled-Source-Code
+    name: Compile and test the source code
+    script:
+      - mvn test
+    artifacts: *Project-Aritfacts
+
+  - steps: &Test-Build
+    name: Test and Build
+    script:
+      - mvn test install
+    artifacts: *Project-Aritfacts
+
+pipelines:
+  branches:
+    develop:
+      - step: *Validate-Project
+      - step: *Test-Compiled-Source-Code
+    master:
+      - step: *Validate-Project
+      - step:
+          <<: *Test-Compiled-Source-Code
+          name: Testing Project on Master Branch
+      - step:
+          <<: *Test-Build
+          name: Package Project on Master Branch
+          ongoing: false
