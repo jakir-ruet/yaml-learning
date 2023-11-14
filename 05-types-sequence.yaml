@@ -1,5 +1,26 @@
 ---
 # it is a basic list with each item in the list.
+# its values listed in specific order. in YAML start with "dash (-)" and "space ( )".
+# it is equivalent to list in programming languages.
+# Block style uses spaces to structure the list.
+# In flow style, user can write sequence in single line within square brackets[].
+# user can embed a sequence in another sequence.
 skills: Cloud Computing
   Amazon Web Services
   Linux Operating System (Ubuntu)
+
+# block style sequence
+coder_ide:
+  - vscode
+  - visual studio
+  - xcode
+
+# flow style sequence
+address: [Rajshahi, Chattogram, Dhaka]
+
+# nested/embedded sequence
+products:
+  - list:
+      - mango
+      - apple
+      - banana
