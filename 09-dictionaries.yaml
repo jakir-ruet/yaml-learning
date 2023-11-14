@@ -1,0 +1,21 @@
+---
+# it is collections of key values pair, all nested under the same sub-group.
+# every item in YAML, id member of at least one dictionary.
+# the key is aways string but value could be scalar or collection.
+
+# dictionary
+applications:
+  mobileApp:
+    name: lapissoft
+    technology: swift & kotlin
+    devTeam: 10
+
+  webApp:
+    name: lapissoft
+    technology: python & reactjs
+    devTeam: 5
+
+  deskApp:
+    name: lapissoft
+    technology: c# & pyhton
+    devTeam: 3
