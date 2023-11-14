@@ -5,3 +5,6 @@ scalers:
   isString: "mango"
   isFloat: 35.90
   isBoolean: true
+  hex_number: 0x7E7
+  oct_number: 03747
+  null_type: null

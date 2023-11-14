@@ -41,6 +41,8 @@ There are threee types of types in YAML shown as follows;
 </ol>
 <p>See in deatails in class (03 to 06)</p>
 <img src="img/data-types.png" alt="datatype" height=350 width=500>
+<p>Object-Map-Dictionary-Array-List</p>
+<img src="img/obj-map-dict.png" alt="datatype" height=750 width=731>
 
 ## Courtesy of Jakir,
 

@@ -1,0 +1,21 @@
+---
+apiVersion: v1.2.5
+kind: iOS-Android App
+metadata:
+  name: lapis-soft
+  epayment:
+    appType: iOS-Android
+    
+specification:
+  containers:
+    - name: es2-north
+      image: google-console
+      port:
+        -containerPort: 80
+
+    - name: es2-north
+      image: apple-console
+      port:
+        -containerPort: 81
+
+
