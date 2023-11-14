@@ -1,0 +1,7 @@
+---
+# this is the very basic concept that deals with strings, numbers, and boolean as well.
+scalers:
+  isInteger: 56
+  isString: "mango"
+  isFloat: 35.90
+  isBoolean: true
