@@ -1,0 +1,49 @@
+---
+# its allows us to reduce repeat systax & extend existing data nodes.
+# we can place anchor (&) on an entity to mark a mutli line section.
+# The anchor '&' which defines a chunk of configuration
+# we can then use an alias (*) call that anchor later in the document to reference that section.
+# The alias '*' used to refer to that chunk elsewhere.
+
+definitions:
+  steps:
+    - step:
+        name: build and test
+        script:
+          - mvn package
+        artifacts:
+          - target/**
+
+piplines:
+  branches:
+    develop:
+      - step:
+          name: build and test
+          script:
+            - mvn package
+        artifacts:
+          - target/**
+  master:
+    - step:
+        name: build and test
+        script:
+          - mvn package
+        artifacts:
+          - target/**
+# -----------------Using Anchor-----------------
+# making chunk here
+definations:
+  steps:
+    - step: &build-test
+      name: build and test
+      script:
+        - mvn package
+      artifacts:
+        - target/**
+
+pipelines:
+  branches:
+    develop:
+      - step: *build-test
+master:
+  - step: *build-test
