@@ -1,0 +1,25 @@
+---
+# in YAML doesn't need quotes, because it is automatically converted to a string.
+# The quote is only required if the value includes a special character such as {} [] , & : * # ? | ! % @ /
+# Yes/No, should be enclosed in quotes otherwise, it may be migrated boolean values.
+# Folded style and literal style can be used to spread string across multiple lines.
+
+# folded style: to remove newlines within the string
+companyFolded: LapisSoft
+aboutFolded: >
+  LapisSoft is Small Medium software firm focusing Web Application, 
+  Enterprise Resource Planning (ERP), Banking Software, System Software, 
+  Cloud Computing, eCommerce, 
+  Artificial Intelligence and Data Engineering as well.
+
+# Lteral style: use | to turn newlins within the string into leteral newline.
+companyLiteral: LapisSoft
+aboutLiteral: >
+  LapisSoft is Small Medium software firm focusing Web Application, 
+  Enterprise Resource Planning (ERP), Banking Software, System Software, 
+  Cloud Computing, eCommerce, 
+  Artificial Intelligence and Data Engineering as well.
+  address: |
+    123, Circular Road
+    Circle Yard
+    Dhaka, Bangladesh
