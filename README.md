@@ -40,6 +40,7 @@ There are threee types of types in YAML shown as follows;
   <li>Scalars (String/Numbers)</li>
 </ol>
 <p>See in deatails in class (03 to 06)</p>
+<img src="img/data-types.png" alt="datatype">
 
 ## Courtesy of Jakir,
 
