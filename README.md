@@ -30,7 +30,7 @@ YAML Ain't Markup Language (YAML) is a data serialization language that is consi
 | 16  |   ...    | It is use to stream ending                           |
 | 17  |    \*    | It is use to describe the alias node.                |
 
-## Basic YAML Daratype
+## YAML Daratype
 
 There are threee types of types in YAML shown as follows;
 
@@ -39,6 +39,7 @@ There are threee types of types in YAML shown as follows;
   <li>Sequences (Arrays/Lists)</li>
   <li>Scalars (String/Numbers)</li>
 </ol>
+<p>See in deatails in class (03 to 06)</p>
 
 ## Courtesy of Jakir,
 
