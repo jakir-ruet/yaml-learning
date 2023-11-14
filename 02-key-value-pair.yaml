@@ -1,0 +1,6 @@
+version: 1.0.5
+mydetails:
+  id: 054003
+  first_name: "Jakir"
+  last_name: "Ahmed"
+  isStudent: false
