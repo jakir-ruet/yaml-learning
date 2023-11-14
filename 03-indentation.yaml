@@ -1,0 +1,19 @@
+---
+# in indentation you must use space for align the code.
+# Employees information
+
+Employess:
+  - Name: Jakir
+    Department: DevOps Engineering
+    Subject: Mathematics
+      Physics
+      Chemistry
+      Computer
+
+  - Name: Jasim
+    Department: Software Engineering
+    Subject: Mathematics
+      Physics
+      Chemistry
+      Computer
+# we may convert the YAML to JSON.
