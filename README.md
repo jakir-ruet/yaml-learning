@@ -40,7 +40,7 @@ There are threee types of types in YAML shown as follows;
   <li>Sequences</li>
 </ol>
 <p>See in deatails in class (03 to 06)</p>
-<img src="img/data-types.png" alt="datatype" height=290 width=500>
+<img src="img/data-types.png" alt="datatype" height=350 width=500>
 
 ## Courtesy of Jakir,
 
